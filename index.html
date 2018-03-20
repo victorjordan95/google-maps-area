@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Provider Area Editor</h1>
+                <p>Click any area on the map to start making polygon</p>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6">
+                <textarea name="" id="polyCoordinate"></textarea>
+                <button id="resetPolygon">Reset</button>
+                <button id="js-saveLatLon">Salvar Coordenadas</button>
+            </div>
+            <div class="col-xs-6">
+                <div style="height: 50vh;" id="map-canvas"></div>
+                <!-- <div style="height: 50vh;" id="map1"></div> -->
+            </div>
+        </div>
+    </section>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAR8ubrq24oKLzNQathKEL02qJ_4gXqnI"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="map.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
